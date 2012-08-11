@@ -1,0 +1,6 @@
+require_recipe "apt"
+require_recipe "postgresql"
+require_recipe "php"
+require_recipe "php::module_pgsql"
+require_recipe "apache2"
+require_recipe "apache2::mod_php5"
